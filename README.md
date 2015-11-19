@@ -26,4 +26,4 @@ Terry Reese has a tutorial on using MARCSplit and batch processing here: https:/
 ## Author Notes
 I've commented in the stylesheet where I made decisions and my thoughts behind them.  
 
-I'm a n00b at XSLT, so if anyone sees issues or improvements, please let me know.  I am also new at GitHub, so patience is appreciated!
+I'm a n00b at XSLT, so if anyone sees issues or places for improvements, please let me know.  I am also new at GitHub, so patience is appreciated!
