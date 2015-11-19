@@ -8,7 +8,7 @@ XSLT stylesheet for converting MARC records to EAD using MarcEdit.
 1. Just put the XSLT sheet into the c:\program files\marcedit\xslt directory and follow the steps below.
 2. Click on the MARC Tools menu at: Tools/Edit XML Function List/
 3. Click the Add Button
-4. Function Name (Alias) -- Enter: MARC=>RDFDC
+4. Function Name (Alias) -- Enter: MARC=>EADforASpace
 5. XSLT Stylesheet path: Click on the open folder Icon and find the RDF style sheet that you just downloaed.
 6. In format information, select MARC as the original format and Other as the final format.
 7. Click Ok (close the Add dialog)
