@@ -18,8 +18,6 @@ XSLT stylesheet for converting MARC records to EAD using MarcEdit.
 
 Just select it and specifiy the file that you wish to process.  Its really that simple.
 
-## Switching your 
-
 ## Batch processing records in MarcEdit
 
 If you're like my institution, you'll have one large MARC file with all your records.  You'll need use MARCSplit to seperate those into individual .mrc files.
