@@ -1,7 +1,7 @@
 # MARCtoEADforASpace
 XSLT stylesheet for converting MARC records to EAD using MarcEdit.
 
-## Instructions on installing stylesheets in MarcEdit
+## Instructions on adding stylesheets in MarcEdit
 
 (From http://marcedit.reeset.net/software/xslt/load.txt)
 
