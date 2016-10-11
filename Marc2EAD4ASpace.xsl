@@ -626,7 +626,7 @@
             <!--Subject headings-->
             <xsl:for-each select="marc:datafield[@tag=600]">
                 <controlaccess>
-                    <persname source="lcnaf" rules="aacr2r" role="subject" encodinganalog="600">
+                    <persname source="naf" role="subject" encodinganalog="600">
                         <xsl:for-each select="marc:subfield">
                             <xsl:value-of select="."/>
                             <xsl:if test="position()!=last()">
@@ -639,7 +639,7 @@
 
             <xsl:for-each select="marc:datafield[@tag=610]">
                 <controlaccess>
-                    <corpname source="lcnaf" rules="aacr2r" role="subject" encodinganalog="610">
+                    <corpname source="naf" role="subject" encodinganalog="610">
                         <xsl:for-each select="marc:subfield">
                             <xsl:value-of select="."/>
                             <xsl:if test="position()!=last()">
@@ -665,7 +665,7 @@
 
             <xsl:for-each select="marc:datafield[@tag=650]">
                 <controlaccess>
-                    <subject source="lcsh" encodinganalog="650" rules="scm">
+                    <subject source="lcsh" encodinganalog="650">
                         <xsl:for-each select="marc:subfield">
                             <xsl:value-of select="."/>
                             <xsl:if test="position()!=last()">
@@ -730,7 +730,7 @@
 
             <xsl:for-each select="marc:datafield[@tag=630]">
                 <controlaccess>
-                    <title encodinganalog="630" source="lcnaf" rules="aacr2r">
+                    <title encodinganalog="630" source="naf">
                         <xsl:for-each select="marc:subfield">
                             <xsl:value-of select="."/>
                             <xsl:if test="position()!=last()">
