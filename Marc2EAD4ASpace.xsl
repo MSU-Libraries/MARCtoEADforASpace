@@ -652,7 +652,7 @@
 
             <xsl:for-each select="marc:datafield[@tag=651]">
                 <controlaccess>
-                    <geogname source="lcsh" rules="scm" role="subject" encodinganalog="651">
+                    <geogname source="lcsh" role="subject" encodinganalog="651">
                         <xsl:for-each select="marc:subfield">
                             <xsl:value-of select="."/>
                             <xsl:if test="position()!=last()">
